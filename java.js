@@ -4,7 +4,7 @@ if (!window.xssIsExecuted) {
     var xssText = '<div style="position:fixed;top:0px;left:0px;z-index:999;font-size:24px;background:red;color:white;">Reflected XSS</div>';
 	document.body.insertAdjacentHTML('afterend', xssText);
 
-    alert('Reflected XSS from an external JS file.');
+    alert('From belgium with love, Switch.');
 
     var inputs = document.getElementsByTagName('input');
 
